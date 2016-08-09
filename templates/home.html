@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	  <head>
+	  <title>Home Page</title>
+	  	<meta charset='utf-8' >
+     <style>
+
+	h4,p{
+		display: inline;
+	}
+	 </style>
+	  </head>
+	  <body>
+	        <div class="tabs">
+	            <div class="tab-links">
+                    <ul>
+    	            	<li><a style="color:#125699" href="/plugs">Plugs</a></li>
+        	    	</ul>
+		        </div>
+            </div>
+	  		<h3>Triple Outlet</h3>
+			<hr>
+			<fieldset>
+			<p>
+    			<form action="/home/turnall" id="turnall" name="turnall" method="post">
+        			<h3>Turn Plugs</h3>
+        			<input required type="radio" name="turnall" value="on" >Turn All <strong>ON</strong>
+        			<br>
+        			<input required type="radio" name="turnall" value="off">Turn All <strong>OFF</strong>
+        			<br><br>
+        			<button type="submit" form="turnall">Done!</button>
+    			</form>
+			</p>
+                        </fieldset>
+			<hr>
+                        <fieldset>
+			<div class="status">
+                   <p>
+                       Plug A Status: <h4 style="color:red;"> {{a}} </h4> 
+                   </p>
+            </div>
+
+			<div class="status">
+                    <p>
+                        Plug B Status: <h4 style="color:red;"> {{b}} </h4> 
+                    </p>
+            </div>
+
+			<div class="status">
+                   <p>
+                        Plug C Status: <h4 style="color:red;"> {{c}} </h4> 
+                   </p>
+            </div>
+                        </fieldset>
+
+	  </body>
+</html>
