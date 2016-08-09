@@ -131,6 +131,7 @@ def plugs_rule():
 
 
 if __name__ == '__main__':
-    app.run(host='192.168.1.24', threaded=True, port=3936) #app.run(host='0.0.0.0') This tells your operating system to listen on all public IPs
+    app.run(host='192.168.1.24', threaded=True, port=3936) #change host address according to RasPi local IP
+    """app.run(host='0.0.0.0') This tells your operating system to listen on all public IPs"""
 
     
