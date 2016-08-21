@@ -1,3 +1,6 @@
-# Web-Controlled-RasPi-Turta-4-Channel-Relay-Module-with-Flask
+# Web Controlled Raspberry Pi Turta 4 Channel Relay Module with Flask
 
-whole article about this project was publşshed at 
+Turta 4 Channel Relay module is designed for Raspberry Pi 2/3 series single board computers. The expansion module has 4 relays with 250V AC/ 10 A. The module is designed and produced by  <a href="http://turta.io/">turta.io</a> in Turkey. 
+In this project, we will learn about how to control these relays on web. 
+
+whole article about this project was published on my blog page:  [ http://wp.me/p3FbHc-xQ ]
